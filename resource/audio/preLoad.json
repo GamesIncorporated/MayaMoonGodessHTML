@@ -1,0 +1,210 @@
+{
+  "resources": [
+    "res\\Audio\\preLoad.ogg",
+    "res\\Audio\\preLoad.m4a",
+    "res\\Audio\\preLoad.mp3",
+    "res\\Audio\\preLoad.ac3"
+  ],
+  "spritemap": {
+    "5oak": {
+      "start": 0,
+      "end": 2.3510204081632655,
+      "loop": false
+    },
+    "basegame_loop": {
+      "start": 4,
+      "end": 75.77571428571429,
+      "loop": true
+    },
+    "basegame_transition": {
+      "start": 77,
+      "end": 83.5015873015873,
+      "loop": false
+    },
+    "big_win_loop": {
+      "start": 85,
+      "end": 89.06780045351474,
+      "loop": false
+    },
+    "bonus_win": {
+      "start": 91,
+      "end": 93.6702947845805,
+      "loop": false
+    },
+    "common_win_end": {
+      "start": 95,
+      "end": 100.08473922902495,
+      "loop": false
+    },
+    "common_win_end_super": {
+      "start": 102,
+      "end": 106.52997732426304,
+      "loop": false
+    },
+    "freegame_intro": {
+      "start": 108,
+      "end": 109.50349206349206,
+      "loop": false
+    },
+    "freegame_outro": {
+      "start": 111,
+      "end": 112.50349206349206,
+      "loop": false
+    },
+    "freegame_transtion": {
+      "start": 114,
+      "end": 119.45453514739229,
+      "loop": false
+    },
+    "Freespins_Loop": {
+      "start": 121,
+      "end": 171.52632653061224,
+      "loop": true
+    },
+    "FS_counter_update_1": {
+      "start": 173,
+      "end": 173.6008163265306,
+      "loop": false
+    },
+    "fs_counter_update_loop": {
+      "start": 175,
+      "end": 175.49925170068028,
+      "loop": false
+    },
+    "fs_number_move": {
+      "start": 177,
+      "end": 178.6370068027211,
+      "loop": false
+    },
+    "fs_number_move_v2": {
+      "start": 180,
+      "end": 181.52090702947845,
+      "loop": false
+    },
+    "fs_retrigger": {
+      "start": 183,
+      "end": 184.56154195011337,
+      "loop": false
+    },
+    "generic_btn": {
+      "start": 186,
+      "end": 186.95492063492063,
+      "loop": false
+    },
+    "Info_Loop": {
+      "start": 188,
+      "end": 204.55174603174603,
+      "loop": false
+    },
+    "line_win": {
+      "start": 206,
+      "end": 207.38739229024944,
+      "loop": false
+    },
+    "line_win_2": {
+      "start": 209,
+      "end": 210.38739229024944,
+      "loop": false
+    },
+    "line_win_3": {
+      "start": 212,
+      "end": 213.38739229024944,
+      "loop": false
+    },
+    "line_win_4": {
+      "start": 215,
+      "end": 216.38739229024944,
+      "loop": false
+    },
+    "mega_big_win_loop": {
+      "start": 218,
+      "end": 222.06780045351474,
+      "loop": false
+    },
+    "Reels_spin1": {
+      "start": 224,
+      "end": 226.50172335600908,
+      "loop": false
+    },
+    "reel_intro": {
+      "start": 228,
+      "end": 230.50775510204082,
+      "loop": false
+    },
+    "Reel_stop": {
+      "start": 232,
+      "end": 233.53251700680272,
+      "loop": false
+    },
+    "scatter_landing": {
+      "start": 235,
+      "end": 236.56154195011337,
+      "loop": false
+    },
+    "spaghetti_toggle": {
+      "start": 238,
+      "end": 239.72408163265305,
+      "loop": false
+    },
+    "Spin_button": {
+      "start": 241,
+      "end": 242.51510204081632,
+      "loop": false
+    },
+    "Spin_stop": {
+      "start": 244,
+      "end": 245.44834467120182,
+      "loop": false
+    },
+    "StoneWall_SlidesApart": {
+      "start": 247,
+      "end": 251.30256235827665,
+      "loop": false
+    },
+    "super_big_win_loop": {
+      "start": 253,
+      "end": 257.06780045351474,
+      "loop": false
+    },
+    "Symbols_Cascade": {
+      "start": 259,
+      "end": 260.1958276643991,
+      "loop": false
+    },
+    "Symbols_Disapear": {
+      "start": 262,
+      "end": 262.80834467120184,
+      "loop": false
+    },
+    "Transition_FS_Intro": {
+      "start": 264,
+      "end": 265.63120181405895,
+      "loop": false
+    },
+    "Transition_FS_Outro": {
+      "start": 267,
+      "end": 269.4902947845805,
+      "loop": false
+    },
+    "ultra_big_win_loop": {
+      "start": 271,
+      "end": 275.06780045351474,
+      "loop": false
+    },
+    "wintickup_center": {
+      "start": 277,
+      "end": 278.3583673469388,
+      "loop": false
+    },
+    "wintickup_Move": {
+      "start": 280,
+      "end": 281.00426303854874,
+      "loop": false
+    },
+    "win_fade": {
+      "start": 283,
+      "end": 284.46285714285716,
+      "loop": false
+    }
+  }
+}
