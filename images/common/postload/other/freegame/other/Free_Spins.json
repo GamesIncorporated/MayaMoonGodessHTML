@@ -1,0 +1,39 @@
+{"frames": {
+
+"12.png":
+{
+	"frame": {"x":2,"y":2,"w":214,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":134},
+	"sourceSize": {"w":214,"h":134},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"17.png":
+{
+	"frame": {"x":2,"y":138,"w":214,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":134},
+	"sourceSize": {"w":214,"h":134},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"22.png":
+{
+	"frame": {"x":2,"y":274,"w":214,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":134},
+	"sourceSize": {"w":214,"h":134},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Free_Spins.png",
+	"format": "RGBA8888",
+	"size": {"w":218,"h":410},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:03a0673abda79ce940996d75ce62ae7f:bffbb460795a861d237dc584be9cf071:22cbca8932f87ea5f9571409b040bdfd$"
+}
+}
