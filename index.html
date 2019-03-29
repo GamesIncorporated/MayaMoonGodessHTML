@@ -5,7 +5,8 @@
     <title>Maya Moon Goddess
     </title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,height = device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+    <meta name="viewport"
+        content="width=device-width,height = device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
     <meta name=apple-mobile-web-app-capable content=yes />
     <meta name=apple-mobile-web-app-status-bar-style content=black />
     <style>
@@ -128,8 +129,7 @@
             var gameCanvas = document.getElementById("gameCanvas");
             if (gameCanvas && isNaN(window.orientation)) {
                 gameCanvas.style.position = "fixed";
-            }
-            else if (gameCanvas) {
+            } else if (gameCanvas) {
                 gameCanvas.style.position = "fixed";
             }
             if (document.getElementById("loader")) {
@@ -142,6 +142,8 @@
                 var statusBarWidth = 300;
                 var statusBarHeight = 20;
                 var statusBarOffsetV = 200;
+                var errorPopUpWidth = 745;
+                var errorPopUpHeight = 421;
                 var loader = document.getElementById("loader");
                 var scaleX = loader.clientWidth / widthLand;
                 var scaleY = innerHeight / heightLand;
@@ -150,6 +152,10 @@
                 var loadingLogoText = document.getElementById("loadingLogoText");
                 var statusBar = document.getElementById("percentBar");
                 var vendorLogo = document.getElementById("vendorLogo");
+
+                var langId = (getParams(window.location.href)['lang']) || 'en';
+                var errorPopUpImageURL = window.envConfig.cdn + "images/common/preload/lang/" + langId +
+                    "/initError/initError.png'";
 
                 if (scaleX < scaleY) {
                     scale = scaleX;
@@ -170,34 +176,66 @@
                 statusBar.style.height = statusBarHeight * scale + "px";
 
                 var statusBarLeftPosition = ((loader.clientWidth / 2) - (statusBar.clientWidth / 2));
-                var statusBarTopPosition = ((innerHeight / 2) - (statusBar.clientHeight / 2) + (statusBarOffsetV * scale));
+                var statusBarTopPosition = ((innerHeight / 2) - (statusBar.clientHeight / 2) + (statusBarOffsetV *
+                    scale));
                 var vendorId = (getParams(window.location.href)['vendor']) || 'bs';
                 var logoURL = window.envConfig.cdn + "images/common/Loading/logo/" + vendorId + "/logo.png'";
 
                 statusBar.style.left = statusBarLeftPosition + "px";
-                statusBar.style.top =  statusBarTopPosition + "px";
-                vendorLogo.style.display="block";
-                if(vendorLogo.style.display === "block"){
-				 vendorLogo.style.left = statusBarLeftPosition + "px";
-                 vendorLogo.style.top = (statusBarTopPosition + statusBarHeight * scale + 5) + "px";
-                 vendorLogo.style.width = statusBarWidth * scale + "px";
-                 vendorLogo.style.height = (98 * statusBarWidth * scale)/256 + "px";
-                
-                 vendorLogo.style.backgroundImage = "url('" + logoURL + ")";
-                 vendorLogo.style.backgroundPosition = "top center";
-                 vendorLogo.style.backgroundRepeat = "no-repeat";
-                 vendorLogo.style.backgroundSize = "contain";
-				}
+                statusBar.style.top = statusBarTopPosition + "px";
+                vendorLogo.style.display = "block";
+                if (vendorLogo.style.display === "block") {
+                    vendorLogo.style.left = statusBarLeftPosition + "px";
+                    vendorLogo.style.top = (statusBarTopPosition + statusBarHeight * scale + 5) + "px";
+                    vendorLogo.style.width = statusBarWidth * scale + "px";
+                    vendorLogo.style.height = (98 * statusBarWidth * scale) / 256 + "px";
+                    vendorLogo.style.backgroundImage = "url('" + logoURL + ")";
+                    vendorLogo.style.backgroundPosition = "top center";
+                    vendorLogo.style.backgroundRepeat = "no-repeat";
+                    vendorLogo.style.backgroundSize = "contain";
+                }
+
+                errorPopUp.style.backgroundImage = "url('" + errorPopUpImageURL + ")";
+                var scaleErrorPopUpX = innerWidth / widthLand;
+                var scaleErrorPopUpY = innerHeight / heightLand;
+                var scaleErrorPopUp = 1;
+                if (scaleErrorPopUpX < scaleErrorPopUpY) {
+                    scaleErrorPopUp = scaleErrorPopUpX;
+                } else {
+                    scaleErrorPopUp = scaleErrorPopUpY;
+                }
+
+
+                var errorPopuH = (innerHeight / 2) / (errorPopUpHeight / 2);
+                var errorPopuW = (innerWidth / 2) / (errorPopUpWidth / 2);
+
+                if (errorPopuW < errorPopuH) {
+                    scale = errorPopuW;
+                } else {
+                    scale = errorPopuH;
+                }
+
+                errorPopUp.style.width = errorPopUpWidth * scale + "px";
+                errorPopUp.style.height = errorPopUpHeight * scale + "px";
+
+                var errorPopupTop = (innerHeight / 2) - ((errorPopUpHeight * scale) / 2);
+                var errorPopupLeft = (innerWidth / 2) - ((errorPopUpWidth * scale) / 2);
+
+                errorPopUp.style.backgroundPosition = "top center";
+                errorPopUp.style.backgroundRepeat = "no-repeat";
+                errorPopUp.style.backgroundSize = "contain";
+                errorPopUp.style.left = errorPopupLeft  +"px";
+                errorPopUp.style.top = errorPopupTop + "px";
 
                 loader.style.display = "block";
                 if (scale == 0) {
                     resizeLoadingScreen();
                 }
-            }else {
+
+            } else {
                 window.removeEventListener('resize', resizeLoadingScreen);
             }
         }
-
     </script>
     <script src="http://YOUR_IP_ADDRESS:PORT/target/target-script-min.js"></script>
 </head>
@@ -209,22 +247,6 @@
     <div id="gameContainer">
         <canvas id="gameCanvas"></canvas>
         <!-- <div id="infoContainer"></div> -->
-        <div id="errorPopUp">
-            <div id="errorBtn"></div>
-            <div id="errorLabel"></div>
-        </div>
-        <div id="soundPopupContainer">
-            <div id="soundPopup">
-                <div id="gameSoundText"></div>
-                <div id="soundOnBtn"></div>
-                <div id="soundOffBtn"></div>
-            </div>
-        </div>
-        <div id="Optimizer">
-            <div id="OptimizerTxt">
-                <span id="defaultBrowserLine"></span>
-            </div>
-        </div>
     </div>
 
     <div id="loader">
@@ -254,6 +276,7 @@
     <div id="socketConnection">
         <input type="hidden" value="ws://35.176.116.182:9090/rgs/endpoint" id="socketURL" id="socketURL">
     </div>
+    <div id="errorPopUp"></div>
     <script>
         resizeLoadingScreen();
         var jsDeferLoadSingleFile = function (filesList, onCompleteCallback) {
