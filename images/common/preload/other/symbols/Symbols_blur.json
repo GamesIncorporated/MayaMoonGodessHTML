@@ -1,0 +1,120 @@
+{"frames": {
+
+"S1_Moon.png":
+{
+	"frame": {"x":0,"y":0,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"S2_Rabbit.png":
+{
+	"frame": {"x":310,"y":0,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"S3_Jaguar.png":
+{
+	"frame": {"x":620,"y":0,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"S4_Monkey.png":
+{
+	"frame": {"x":0,"y":250,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"S5_Deer.png":
+{
+	"frame": {"x":310,"y":250,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"S6_eagle.png":
+{
+	"frame": {"x":620,"y":250,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"S7_movement.png":
+{
+	"frame": {"x":0,"y":500,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"S8_rain.png":
+{
+	"frame": {"x":310,"y":500,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"S9_Wind.png":
+{
+	"frame": {"x":620,"y":500,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"S10_Water.png":
+{
+	"frame": {"x":0,"y":750,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Scatter_Win.png":
+{
+	"frame": {"x":310,"y":750,"w":400,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":300},
+	"sourceSize": {"w":400,"h":300},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"Wild.png":
+{
+	"frame": {"x":710,"y":750,"w":310,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":310,"h":250},
+	"sourceSize": {"w":310,"h":250},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Blur_Symbol.png",
+	"format": "RGBA8888",
+	"size": {"w":1020,"h":1050},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d968c6e61e66ff52e0a9c6932619ea60:29c83795d718a232359e262b9ce76825:99fb2683a240c79d602e43b89618b30d$"
+}
+}
