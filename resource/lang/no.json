@@ -39,7 +39,7 @@
     "text":"Du har mistet forbindelsen til spillserveren. \n Start spillet på nytt og forsøk igjen."
   },
   "lbl_ConnectionLossErrorMsg" : {
-    "text":"Sikkerheten er viktig for oss. Siden du har vært inaktiv en periode har vi automatisk logget deg ut fra spilløkten din."
+    "text":"Sikkerheten er viktig for oss. Siden du \n har vært inaktiv en periode har vi automatisk \n logget deg ut fra spilløkten din."
   },
   "lbl_ConnectionLossHeading" : {
     "text":"SIKKERHET TIMEOUT"
@@ -59,13 +59,13 @@
     "text":"Vi ser at det tidligere spill ikke ble \n fullført. Vi vil nå gjøre spillet ferdig \n slik at du kan fortsette."
   },
   "lbl_GameOnIEBrowserErrorMsg":{
-    "text":"Vi har oppdaget at du spiller spillet på \nIE11-nettleseren, noe som kan føre til lydproblemer i spillet. \nVi anbefaler at du spiller dette spillet i mer\n brukte nettlesere for en bedre opplevelse. "
+    "text":"Vi har oppdaget at du spiller spillet på \nIE11-nettleseren, noe som kan føre til lydproblemer i spillet. \n Vi anbefaler at du spiller dette spillet i mer\n brukte nettlesere for en bedre opplevelse. "
   },
   "lbl_GameOnUCBrowserErrorMsg":{
-    "text":"We have detected that you are playing game on UC browser \n which may cause some sound issues in the game, we recommend you to play \n this game on mainstream browsers for best experience."
+    "text":"We have detected that you are playing game on \n UC browser which may cause some sound issues in the game, we \n recommend you to play  this game on mainstream \n browsers for best experience."
   },
   "lbl_GameOnUnSupportedDevicesErrorMsg":{
-    "text" : "Vi har oppdaget at du har lastet inn spillet på iPad 2 som ikke er en kompatibel enhet for spillet. Vennligst bytt til en nyere enhet for å få en bedre spillopplevelse."
+    "text" : "Vi har oppdaget at du har lastet inn spillet på iPad 2 som  ikke \n  er en kompatibel enhet for spillet. Vennligst bytt \n til en nyere enhet for å få en bedre spillopplevelse."
   },
   "lbl_free_spins": {
     "text": "GRATISSPINN"
@@ -90,7 +90,7 @@
   "text": "Stopp Autospill"
 },
   "lbl_tooltip_labelGameSettings":{
-    "text": "Spillinnstillinger"
+    "text": "Innstillingsmenyen"
   },
   "lbl_tooltip_labelpaytable": {
     "text": "Utbetalingstabell"
@@ -99,7 +99,7 @@
     "text": "INFORMASJON"
   },
   "lbl_tooltip_labelSettings": {
-    "text": "innstillinger"
+    "text": "Innstillingsmenyen"
   },
   "lbl_tooltip_labelHistory": {
     "text": "Spillhistorikk"

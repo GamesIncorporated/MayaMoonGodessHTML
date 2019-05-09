@@ -83,7 +83,7 @@
     "text":"Configuración de apuesta"
   },
   "lbl_auto_play": {
-    "text": "partida auto"
+    "text": "Juego automático"
   },
 "lbl_tooltip_auto_play_off": {
   "text": "Dejar Juego automático"
@@ -95,7 +95,7 @@
     "text": "TABLA DE PAGOS"
   },
   "lbl_tooltip_labelInformation": {
-    "text": "INFORMES"
+    "text": "INFORMACIÓN"
   },
   "lbl_tooltip_labelSettings": {
     "text": "Configuración"
