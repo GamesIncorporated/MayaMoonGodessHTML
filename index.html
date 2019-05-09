@@ -154,8 +154,10 @@
                 var vendorLogo = document.getElementById("vendorLogo");
 
                 var langId = (getParams(window.location.href)['lang']) || 'en';
-                var errorPopUpImageURL = window.envConfig.cdn + "images/common/preload/lang/" + langId +
+                var connectionErrorImageURL = window.envConfig.cdn + "images/common/preload/lang/" + langId +
                     "/initError/initError.png'";
+                var aplogyErrorImageURL = window.envConfig.cdn + "images/common/preload/lang/" + langId +
+                "/initError/initError.png'";
 
                 if (scaleX < scaleY) {
                     scale = scaleX;
@@ -195,7 +197,7 @@
                     vendorLogo.style.backgroundSize = "contain";
                 }
 
-                errorPopUp.style.backgroundImage = "url('" + errorPopUpImageURL + ")";
+                errorPopUp.style.backgroundImage = "url('" + connectionErrorImageURL + ")";
                 var scaleErrorPopUpX = innerWidth / widthLand;
                 var scaleErrorPopUpY = innerHeight / heightLand;
                 var scaleErrorPopUp = 1;
@@ -274,7 +276,7 @@
         <input type="submit" id="submit" value="Submit">
     </div>
     <div id="socketConnection">
-        <input type="hidden" value="ws://35.176.116.182:9090/rgs/endpoint" id="socketURL" id="socketURL">
+        <input type="hidden" value="ws://ingenuity-rgs.reach-dev.com:80/rgs/endpoint" id="socketURL" id="socketURL">
         <input type="hidden" value="http://ingenuity-rgs.reach-dev.com/rgs/rest/rig/" id="socketCheatURL">
         <input type="hidden" value="slot_ing_4_24" id="gameID">
     </div>
