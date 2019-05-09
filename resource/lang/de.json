@@ -90,7 +90,7 @@
   "text": "Stoppen Sie Autoplay"
 },
   "lbl_tooltip_labelGameSettings":{
-    "text": "Spieleinstellungen"
+    "text": "Einstellungen"
   },
   "lbl_tooltip_labelpaytable": {
     "text": "Gewinntabelle"
@@ -99,7 +99,7 @@
     "text": "INFORMATIONEN"
   },
   "lbl_tooltip_labelSettings": {
-    "text": "instellungen"
+    "text": "Einstellungen"
   },
   "lbl_tooltip_labelHistory": {
     "text": "Spielverlauf"

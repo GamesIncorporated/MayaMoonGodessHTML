@@ -154,8 +154,10 @@
                 var vendorLogo = document.getElementById("vendorLogo");
 
                 var langId = (getParams(window.location.href)['lang']) || 'en';
-                var errorPopUpImageURL = window.envConfig.cdn + "images/common/preload/lang/" + langId +
+                var connectionErrorImageURL = window.envConfig.cdn + "images/common/preload/lang/" + langId +
                     "/initError/initError.png'";
+                var aplogyErrorImageURL = window.envConfig.cdn + "images/common/preload/lang/" + langId +
+                "/initError/initError.png'";
 
                 if (scaleX < scaleY) {
                     scale = scaleX;
@@ -195,7 +197,7 @@
                     vendorLogo.style.backgroundSize = "contain";
                 }
 
-                errorPopUp.style.backgroundImage = "url('" + errorPopUpImageURL + ")";
+                errorPopUp.style.backgroundImage = "url('" + connectionErrorImageURL + ")";
                 var scaleErrorPopUpX = innerWidth / widthLand;
                 var scaleErrorPopUpY = innerHeight / heightLand;
                 var scaleErrorPopUp = 1;

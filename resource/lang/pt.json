@@ -90,16 +90,16 @@
   "text": "Pare Jogos Automáticos"
 },
   "lbl_tooltip_labelGameSettings":{
-    "text": "Definições do Jogo"
+    "text": "Definições"
   },
   "lbl_tooltip_labelpaytable": {
     "text": "Pagamentos"
   },
   "lbl_tooltip_labelInformation": {
-    "text": "EM FORMAÇÃO"
+    "text": "INFORMAÇÕES"
   },
   "lbl_tooltip_labelSettings": {
-    "text": "Definições do"
+    "text": "Definições"
   },
   "lbl_tooltip_labelHistory": {
     "text": "Histórico do Jogo"

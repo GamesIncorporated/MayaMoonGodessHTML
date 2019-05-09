@@ -90,7 +90,7 @@
   "text": "Zatrzymać Autogra"
 },
   "lbl_tooltip_labelGameSettings":{
-    "text": "Ustawienia gry"
+    "text": "ustawień"
   },
   "lbl_tooltip_labelpaytable": {
     "text": "Tabela wygranych"
@@ -99,7 +99,7 @@
     "text": "INFORMACJE"
   },
   "lbl_tooltip_labelSettings": {
-    "text": "Ustawienia"
+    "text": "ustawień"
   },
   "lbl_tooltip_labelHistory": {
     "text": "Historia gry"
