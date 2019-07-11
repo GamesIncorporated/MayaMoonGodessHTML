@@ -271,7 +271,7 @@
         <!-- <img id="swipe" alt="swipe"> -->
         <div id="swipe"></div>
     </div>
-    <div id="CheatPanel" class="CheatPanel">
+    <div id="CheatPanel" class="CheatPanel" style=" display: none">
         <input type="text" placeholder="Enter your cheat" name="cheat" id="cheat">
         <input type="submit" id="submit" value="Submit">
     </div>
@@ -280,7 +280,7 @@
         <input type="hidden" value="http://ingenuity-rgs.reach-dev.com/rgs/rest/rig/" id="socketCheatURL">
         <input type="hidden" value="bs_ing_004_mmg" id="gameID">
     </div>
-    <div id="errorPopUp"></div>
+    <div id="errorPopUp" style=" display: none"></div>
     <script>
         resizeLoadingScreen();
         var jsDeferLoadSingleFile = function (filesList, onCompleteCallback) {
